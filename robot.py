@@ -11,5 +11,5 @@ class robot:
         self.weapon = weapon
         print(self.name, self.health, self.weapon)
     
-    def attack(self, dinosaur): 
-        pass #will be void
+    def attack(self): 
+        self #will be void
