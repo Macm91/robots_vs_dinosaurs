@@ -1,15 +1,13 @@
-class robot:
-    def __init__(self):
-        self.name = ""
-        self.health = 100
-        self.weapon = []
-        self.attack = ""
+from weapon import Weapon 
 
-    def robot_details(self, name, weapon):
+class Robot:
+    def __init__(self, name):
         self.name = name
         self.health = 100
-        self.weapon = weapon
-        print(self.name, self.health, self.weapon)
+        self.weapon = Weapon("Saw", 35)
+        self.attack = ""
+
     
     def attack(self): 
         self #will be void
+
