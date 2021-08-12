@@ -1,5 +1,5 @@
 class Weapon:
     #========constructor=======
-    def __init__(self, name, power):
+    def __init__(self, name):
         self.name = name
-        self.attack_power = power
+        self.attack_power = 10
